@@ -2,11 +2,7 @@ var express = require('express');
 app = express();
 
 app.get('/', function (req, res) {
-  res.send('Vamos pedir Estação do Guaraná hoje mesmo?\n');
-});
-
-app.get('/tst', function (req, res) {
-  res.send('HUahsuhaushaus?\n');
+  res.send('Hello world\n');
 });
 
 app.listen(8080, function () {
