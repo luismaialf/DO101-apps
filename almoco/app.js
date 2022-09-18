@@ -2,7 +2,7 @@ var express = require('express');
 app = express();
 
 app.get('/', function (req, res) {
-  res.send('Vamos pedir Estação do Guaraá hoje mesmo?\n');
+  res.send('Vamos pedir Estação do Guaraná hoje mesmo?\n');
 });
 
 app.get('/tst', function (req, res) {
